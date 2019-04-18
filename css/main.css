@@ -1,9 +1,12 @@
 .home {
-  background-color:black;
-  border-bottom: 9px solid rgb(63, 63, 63);
-  padding: 10px ;
+  background-color:rgb(0, 0, 0);
+  border-bottom: 9px solid black;
+  padding: 20px ;
   text-align: center;
   font-size: 20px;
+  border-bottom: 4px solid rgb(255, 204, 0);
+
+
 }
 
 .mune {
@@ -16,31 +19,32 @@ padding: 20px;
 
 #titele{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
   font-weight: normal;
-  padding: 30px 5px 5px 10px;
+  padding: 5px 5px 5px 10px;
   text-transform: capitalize;
   margin: 0 auto;
 }
 
-
 /* text in top */
 .block1 {
-background-color:rgba(128, 128, 128, 0.562);
-font-size:20px;
+color: white;
+background-color:rgba(0, 0, 0, 1);
+font-size:30px;
 font-weight: bold;
 font-family: monospace, serif; 
+font-family: 'Orbitron', sans-serif;
 text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 10px;
-border-bottom: 4px solid rgb(63, 63, 63);
+padding: 2px;
+border-bottom: 4px solid rgb(255, 204, 0);
 
 }
 .block2 {
-background-color:lightgray;
+background-color:rgb(0, 0, 0);
 font-size:20px;
 font-weight: bold;
 font-family: monospace, serif; 
@@ -49,9 +53,82 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 10px;
-border-bottom: 4px solid rgb(63, 63, 63);
+border-bottom: 4px solid rgb(255, 204, 0);
+height: 550px;
 
 }
+.flickity-page-dots {
+bottom: 5px;
+}
+
+.carousel-container, .carousel-item {
+  height: 570px;
+  width: 1110px;
+  /* margin: 4% */
+}
+
+.carousel-item-1 {
+  background: url(../img/iden/i01.png) center center;
+  background-size: cover;
+}
+.carousel-item-2 {
+  background: url(../img/iden/i02.png) center center;
+  background-size: cover;
+}
+.carousel-item-3 {
+  background: url(../img/iden/i03.png) center center;
+  background-size: cover;
+}
+.carousel-item-4 {
+  background: url(../img/phot/p01.png) center center;
+  background-size: cover;
+}
+.carousel-item-5 {
+  background: url(../img/phot/p02.png) center center;
+  background-size: cover;
+}
+.carousel-item-6 {
+  background: url(../img/phot/p03.png) center center;
+  background-size: cover;
+}
+.carousel-item-7 {
+  background: url(../img/digi/d01.png) center center;
+  background-size: cover;
+}
+.carousel-item-8 {
+  background: url(../img/digi/d02.png) center center;
+  background-size: cover;
+}
+.carousel-item-9 {
+  background: url(../img/digi/d03.png) center center;
+  background-size: cover;
+}
+.carousel-item-10 {
+  background: url(../img/webs/w01.png) center center;
+  background-size: cover;
+}
+.carousel-item-11 {
+  background: url(../img/webs/w02.png) center center;
+  background-size: cover;
+}
+.carousel-item-12 {
+  background: url(../img/webs/w03.png) center center;
+  background-size: cover;
+}
+.carousel-item-13 {
+  background: url(../img/broch/b01.png) center center;
+  background-size: cover;
+}
+.carousel-item-14 {
+  background: url(../img/broch/b02.png) center center;
+  background-size: cover;
+}
+.carousel-item-15 {
+  background: url(../img/broch/b03.png) center center;
+  background-size: cover;
+}
+
+
 /*  */
 
 
